@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+body{
+    margin: 0;
+}
+.container{
+    margin: 0px 100px;
+}
+.logo img{
+    width: 50px;
+    max-width: 50px;
+    height: auto;
+}
+.header{
+    background: url(../images/bgbg.jfif) no-repeat center center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.header-menu{
+    padding-top: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-item{
+    color:#fff;
+    text-decoration:none;
+    margin-right: 30px;
+    transition:0.1s linear;
+}
+.nav-item:hover{
+    color:#FF9600;
+}
+.cartik{
+    position: relative;
+    border-right: 2px solid #FFF;
+    padding-right: 10px;
+    height: 50px;
+}
+.cartimg{
+    position: absolute;
+    top: 10px;
+    right: 6px;
+}
+.pnum{
+    color: #FFF;
+    text-decoration: none;
+    transition: 0.1s linear;
+    font-size: 25px;
+}
+.pnum:hover{
+    color: #00FF96;
+}
+.phonetexto{
+    color: #fff;
+    text-align: center;
+    
+}
+.phonetik{
+    display: flex;
+    align-items: center;
+}
+.button{
+    background-color:#FF9600;
+    color: #FFF;
+    text-decoration: none;
+    padding: 15px 15px;
+    transition: 0.2s ease-out;
+}
+.button:hover{
+    color: #9A1F1F;
+}
+/* НИЖНЯЯ */
+.header-niz{
+    position: relative;
+}
+.titlus{
+    color: #FF9600;
+    font-size: 45px;
+    font-weight: 400px;
+    text-align: center;
+    position: center;
+    left: 0;
+    margin-top: 120px;
+}
+.titlusSup{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+.titlusSup::after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 61px;
+    background-color: #fff;
+    top: 110px;
+    left: 570px;
+}
+.titlusSup::before{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 61px;
+    background-color: #fff;
+    top: 110px;
+    left: 905px;
+}
+.header-nizbtn{
+    background-color:#FF9600;
+    color: #FFF;
+    text-decoration: none;
+    padding: 15px 15px;
+    margin-top: 70px ;
+    margin-right: 100px;
+    margin-left: -100px;
+    position: absolute;
+    transition: 0.3s linear;
+    border-radius: 10px;
+}
+.header-nizbtn:hover{
+    color:#9A1F1F;
+}
+#changeBackground{
+    margin-top: -100px;
+    margin-left: 270px;
+    position: absolute;
+    background-color: transparent;
+    border: 2px solid ;
+    opacity: 0;
+}
