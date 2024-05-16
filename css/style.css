@@ -39,7 +39,7 @@ body{
 }
 .nav-soc-con{
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around;
     gap: 10px; 
     margin-left: -100px;
 }
